@@ -1,0 +1,36 @@
+.head1{
+    margin: auto;
+    background-color: rgb(155, 9, 9);
+    width: 100%;
+    height: auto;
+}
+
+.h1{
+    text-align: left;
+}
+
+.h1{
+    
+    font-size: 40px;
+    color: whitesmoke;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+}
+
+p{
+    text-align: right;
+}
+.l1{
+    padding : auto;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.l1:hover{
+    font-size: 35px;
+    color: whitesmoke;
+}

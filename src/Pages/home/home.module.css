@@ -1,0 +1,45 @@
+
+
+.action{
+    width: 100%;
+    padding: auto;
+    background-color: brown;
+}
+
+.right{
+    width: 80%;
+    margin-left: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.action button{
+    width : 100px;
+    height: 50px;
+    margin: 5px;
+    padding: auto;
+    color: azure;
+    background-color: brown;
+    border: 0ch;
+}
+
+.action button:hover{
+    color: brown;
+    background-color: azure;
+}
+
+
+.input{
+    width: 250px;
+    height: 25px;
+    margin-left: 250px;
+}
+
+.Search{
+    width: 25px;
+    height: 15px;
+}
+
+.Searchbtn{
+    width: 15px;
+    height: 25px;
+}

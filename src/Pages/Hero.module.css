@@ -1,0 +1,43 @@
+
+.head1{
+    margin: auto;
+    background-color: rgb(155, 9, 9);
+    width: 100%;
+    height: auto;
+}
+
+.h1{
+    text-align: left;
+}
+
+.h1{
+    float: left;
+    font-size: 40px;
+    color: rgb(92, 20, 20);
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    text-decoration: solid;
+}
+
+.h{
+    background-color: rgb(177, 10, 10);
+    width: 100%;
+    height: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 10px brown;
+}
+.btn{
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    background-color: rgb(155, 9, 9);
+    color: azure;
+    text-decoration: solid;
+}
+
+.btn:hover{
+    background-color: azure;
+    color: rgb(155, 9, 9);
+}

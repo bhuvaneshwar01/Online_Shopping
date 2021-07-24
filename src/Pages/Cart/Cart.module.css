@@ -1,0 +1,150 @@
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .item {
+    margin: 1rem 0;
+  }
+  
+  .image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  
+  .Margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+  }
+
+  .image img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .ccard {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .ccard1 {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    height: 50px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 6px;
+  }
+  
+  .content h3 {
+    font-size: 1.25rem;
+    color: #2c292b;
+  }
+  
+  .actions {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    color: #77002e;
+    border: 1px solid #77002e;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+  }
+  
+  .actions button:hover,
+  .actions button:active,
+  .cartbtn {
+    background-color: #ffe2ed;
+  }
+  
+  .cartbtn{
+    margin: 3px;
+    font: inherit;
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #77002e;
+    background-color:rgb(43, 255, 0);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    float: left;
+  }
+
+  .deletebtn{
+    margin: 3px;
+    font: inherit;
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #77002e;
+    background-color:rgb(255, 0, 0);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    float: left;
+  }
+
+  .deletebtn:hover{
+    background-color: #77002e;
+  }
+
+  .cartbtn:hover{
+    background-color:rgb(27, 133, 5);
+  }
+
+  .plus{
+    margin: 3px;
+    font: inherit;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #77002e;
+    background-color: #77002e;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: solid;
+    width: 25px;
+    height: 25px;
+    float:  right;
+  }
+
+  .countbox{
+    width: 25px;
+    height: 25px;
+    float: right;
+  }
+
+  .text_input{ 
+    position:relative;
+	  margin-bottom:2px;
+    border:0;
+    border-bottom:1px solid #555;  
+    background:transparent;
+    width:100%;
+    padding:8px 0 5px 0;
+    font-size:16px;
+    color:rgb(0, 0, 0);
+  }
+  .text_input:focus{ 
+   border:none;	
+   outline:none;
+   border-bottom:1px solid #e74c3c;	
+  }
